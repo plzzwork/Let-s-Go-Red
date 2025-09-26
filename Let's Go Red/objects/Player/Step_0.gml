@@ -17,7 +17,6 @@ if(_ver != 0 || _hor != 0){
     
     if(keyboard_check(vk_shift) && sprint_time > 0 && !winded){
         sprint_time -= (delta_time / 1000000);
-        show_debug_message(sprint_time);
         speedToUse = sprint_speed;
     }
     
