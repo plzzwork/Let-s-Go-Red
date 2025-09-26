@@ -15,7 +15,7 @@ char_colors = {
 item1 = [
 {
     name : "g",
-    msg: "This is a food"
+    msg: "This is a gaodsoados"
 }
 ,
 {
