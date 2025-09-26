@@ -7,7 +7,11 @@ var yMovement = sin(movementAngle);
 
 // move_and_collide(moveX,moveY,collision_tiles, undefined, undefined, undefined, max_hor_speed, max_vert_speed);
 if(_ver != 0 || _hor != 0){
-    move_and_collide(xMovement * move_speed, yMovement * move_speed,tilemap, undefined, undefined, undefined, move_speed, move_speed);
+    var speedToUse = walk_speed;
+    if(keyboard_check(vk_shift)){
+        speedToUse = sprint_speed;
+    }
+    move_and_collide(xMovement * speedToUse, yMovement * speedToUse,tilemap, undefined, undefined, undefined, speedToUse, speedToUse);
 }
 // if moving, set sprite
 if (_hor != 0 or _ver != 0){

@@ -35,8 +35,10 @@
   },
   "name":"Let's Go Red.",
   "resources":[
+    {"id":{"name":"NPC","path":"objects/NPC/NPC.yy",},},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Sadley","path":"sprites/Sadley/Sadley.yy",},},
     {"id":{"name":"Smiley","path":"sprites/Smiley/Smiley.yy",},},
     {"id":{"name":"WhitePixel","path":"sprites/WhitePixel/WhitePixel.yy",},},
   ],

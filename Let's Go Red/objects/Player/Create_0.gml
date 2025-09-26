@@ -1,6 +1,7 @@
 // create runs once upon starting
 
-move_speed = 1; // seems type does not need to be declared
+walk_speed = 4; // seems type does not need to be declared
+sprint_speed = 8;
 
 tilemap = layer_tilemap_get_id("Tiles_Col");
 
