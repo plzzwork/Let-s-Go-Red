@@ -9,3 +9,5 @@ hp = 10;
 hp_total =hp;
 damage = 1;
 charge = 0;
+sprint_time = 5;
+winded = false;

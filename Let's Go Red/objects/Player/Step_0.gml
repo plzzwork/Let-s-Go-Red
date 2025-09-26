@@ -8,8 +8,21 @@ var yMovement = sin(movementAngle);
 // move_and_collide(moveX,moveY,collision_tiles, undefined, undefined, undefined, max_hor_speed, max_vert_speed);
 if(_ver != 0 || _hor != 0){
     var speedToUse = walk_speed;
-    if(keyboard_check(vk_shift)){
+    if(sprint_time <= 0){
+        winded = true;
+    }
+    else if(sprint_time >= 5){
+        winded = false;
+    }
+    
+    if(keyboard_check(vk_shift) && sprint_time > 0 && !winded){
+        sprint_time -= (delta_time / 1000000);
+        show_debug_message(sprint_time);
         speedToUse = sprint_speed;
+    }
+    
+    else if (sprint_time < 5){
+        sprint_time += (delta_time / 1500000);
     }
     move_and_collide(xMovement * speedToUse, yMovement * speedToUse,tilemap, undefined, undefined, undefined, speedToUse, speedToUse);
 }
