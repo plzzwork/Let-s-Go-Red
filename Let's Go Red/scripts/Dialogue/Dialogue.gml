@@ -1,3 +1,4 @@
+
 function create_dialogue(msgs){
     if (instance_exists(obj_dialogue)) return;
         
