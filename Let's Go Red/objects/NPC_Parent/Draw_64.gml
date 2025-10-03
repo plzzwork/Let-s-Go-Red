@@ -8,7 +8,7 @@ var _boxh = gui_h - _y;
 
 //draw_sprite_stretched(spr_box,0,_x,_y,_boxw,_boxh);
 
-draw_set_font(Font1);
+//draw_set_font(Font1);
 
 //var name = messages[current_msg].name;
 draw_set_color(c_black);

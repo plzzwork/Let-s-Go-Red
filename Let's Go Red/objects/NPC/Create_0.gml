@@ -9,5 +9,13 @@ conversation = [
 {
     name: "Jonathan",
     text: "Really? How was it.",
+},
+{
+    name: "John",
+    text: "It was awful. There was only one exhibit with a single dog."
+},
+{
+    name: "John",
+    text: "It was a shih tzu."
 }
 ];
