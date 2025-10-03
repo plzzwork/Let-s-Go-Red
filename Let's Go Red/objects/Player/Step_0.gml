@@ -15,16 +15,24 @@ if(_ver != 0 || _hor != 0){
         winded = false;
     }
     
+    //Checks if the player is sprinting and if they are not winded
     if(keyboard_check(vk_shift) && sprint_time > 0 && !winded){
+        //decreases sprint_time
         sprint_time -= (delta_time / 1000000);
         speedToUse = sprint_speed;
     }
     
-    else if (sprint_time < 5){
-        sprint_time += (delta_time / 1500000);
-    }
     move_and_collide(xMovement * speedToUse, yMovement * speedToUse,tilemap, undefined, undefined, undefined, speedToUse, speedToUse);
 }
+
+//Restores the sprint_time if the player has less than 5 seconds of stamina and is not pressing the sprint key
+if(sprint_time < 5 && !keyboard_check(vk_shift)){
+    //Player regains stamina at a rate of 0.66 seconds of sprinting per IRL second
+    sprint_time += (delta_time / 1500000);
+}
+
+//show_debug_message(sprint_time);
+
 // if moving, set sprite
 if (_hor != 0 or _ver != 0){
     /*

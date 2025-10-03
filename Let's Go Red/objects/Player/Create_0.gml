@@ -9,5 +9,9 @@ hp = 10;
 hp_total =hp;
 damage = 1;
 charge = 0;
+
+//Sprint time is the total amount of seconds that the player can sprint for
 sprint_time = 5;
+
+//If winded then the player can not sprint until the sprint timer is fully filled up
 winded = false;
