@@ -20,15 +20,31 @@ if(_ver != 0 || _hor != 0){
         //decreases sprint_time
         sprint_time -= (delta_time / 1000000);
         speedToUse = sprint_speed;
+        
+        //resets the sprint_wait_time
+        sprint_wait_time = 0.75;
+        
+        isSprint = true;
+    }
+    else{
+        isSprint = false;
     }
     
     move_and_collide(xMovement * speedToUse, yMovement * speedToUse,tilemap, undefined, undefined, undefined, speedToUse, speedToUse);
 }
+else{
+    isSprint = false;
+}
 
-//Restores the sprint_time if the player has less than 5 seconds of stamina and is not pressing the sprint key
-if(sprint_time < 5 && !keyboard_check(vk_shift)){
-    //Player regains stamina at a rate of 0.66 seconds of sprinting per IRL second
-    sprint_time += (delta_time / 1500000);
+if(sprint_time < 5 && !isSprint){
+    //Player can not regain stamina until 0.75 seconds pass after sprinting
+    if(sprint_wait_time > 0){
+        sprint_wait_time -= (delta_time / 1000000);
+    }
+    else{
+        //Player regains stamina at a rate of 0.66 seconds of sprinting per IRL second
+        sprint_time += (delta_time / 1500000);
+    }
 }
 
 //show_debug_message(sprint_time);

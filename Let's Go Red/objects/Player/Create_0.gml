@@ -15,3 +15,8 @@ sprint_time = 5;
 
 //If winded then the player can not sprint until the sprint timer is fully filled up
 winded = false;
+
+//Timer that stops the player from regaining stamina until 0.75 seconds after sprinting
+sprint_wait_time = 0.75;
+
+isSprint = false;
