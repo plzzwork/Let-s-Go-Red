@@ -1,21 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"NPC",
+  "%Name":"NPC_Sadley",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"NPC",
+  "name":"NPC_Sadley",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"NPCs",
+    "path":"folders/Objects/NPCs.yy",
   },
   "parentObjectId":{
-    "name":"NPC_Parent",
-    "path":"objects/NPC_Parent/NPC_Parent.yy",
+    "name":"NPC__Parent",
+    "path":"objects/NPC__Parent/NPC__Parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

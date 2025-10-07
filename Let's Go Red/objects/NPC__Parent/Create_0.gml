@@ -5,6 +5,7 @@ talking = false;
 conversationIndex = 0;
 textIndex = 0;
 conversation = [];
+nameColors = { };
 
 punctuationWaitTimes = {};
 punctuationWaitTimes[$ ","] = 0.12;
