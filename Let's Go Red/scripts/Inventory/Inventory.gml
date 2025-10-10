@@ -1,6 +1,18 @@
 function Inventory(){
-    inv = [];
+    global.inv = [];
     numSlots = 5;
+}
+
+function ToggleInventory(){
+    if (instance_exists(obj_Inventory)){
+        instance_destroy(obj_Inventory);
+        return;
+    }
+    instance_create_depth(0, 0, 200, obj_Inventory);
+}
+
+function getInventory(){
+    return inv;
 }
 
 function addItem(sprite, name, max_stack, desc){
