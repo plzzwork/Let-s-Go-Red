@@ -38,6 +38,7 @@
   "name":"Let's Go Red",
   "resources":[
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
+    {"id":{"name":"InventoryFont","path":"fonts/InventoryFont/InventoryFont.yy",},},
     {"id":{"name":"inventoryOpener","path":"objects/inventoryOpener/inventoryOpener.yy",},},
     {"id":{"name":"Item","path":"objects/Item/Item.yy",},},
     {"id":{"name":"NPC__Parent","path":"objects/NPC__Parent/NPC__Parent.yy",},},

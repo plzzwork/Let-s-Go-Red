@@ -1,6 +1,6 @@
 function Inventory(){
     global.inv = [];
-    numSlots = 5;
+    global.numSlots = 5;
 }
 
 function ToggleInventory(){
@@ -11,25 +11,21 @@ function ToggleInventory(){
     instance_create_depth(0, 0, 200, obj_Inventory);
 }
 
-function getInventory(){
-    return inv;
-}
-
 function addItem(sprite, name, max_stack, desc){
     //adding stacks of an item
-    for (var i = 0; i < array_length(inv); ++i){
-        if (inv[i].name == name && inv[i].qty + 1 <= inv[i].max_stack){
-            inv[i].qty++;
+    for (var i = 0; i < array_length(global.inv); ++i){
+        if (global.inv[i].name == name && global.inv[i].qty + 1 <= global.inv[i].max_stack){
+            global.inv[i].qty++;
             return "Added existing item to inventory";
         }
     }
     
     //adding a new item
     //dont add anything over the inventory limit
-    if (array_length(inv) == numSlots){
+    if (array_length(global.inv) == global.numSlots){
         return "Inventory is Full!";
     }
-    array_push(inv,{
+    array_push(global.inv,{
         sprite: sprite,
         name: name,
         max_stack: max_stack,
