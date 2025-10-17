@@ -1,5 +1,5 @@
 sprite = spr_sus;
 name = "suspicious bush";
-max_stack = 1;
+max_stack = 3;
 description = "what"
-destroyAfterPickup = true;
+destroyAfterPickup = false;
