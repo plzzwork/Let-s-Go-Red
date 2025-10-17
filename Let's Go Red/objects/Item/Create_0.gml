@@ -3,4 +3,3 @@ name = "suspicious bush";
 max_stack = 1;
 description = "what"
 destroyAfterPickup = true;
-Inventory();
