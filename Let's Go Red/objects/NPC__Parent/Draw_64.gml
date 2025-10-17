@@ -10,7 +10,7 @@ if(!talking){return;}
 
 draw_sprite_stretched(spr_DialogueBox,0,_x,_y,_boxw,_boxh);
 
-draw_set_font(Font2ah);
+draw_set_font(Font_Dialogue);
 
 //var name = messages[current_msg].name;
 
