@@ -1,38 +1,43 @@
 //changes the sprint bar sprite depending on what their remaining stamina is
-if(percent == 100){
+if(percent >= 100){
     reload = false;
 }
-else if(percent > 90 && !reload){
-    sprite_index = Step10;
+var spriteToDraw = undefined;
+
+if(percent > 90 && !reload){
+    spriteToDraw = Step10;
 }
 else if(80 < percent && percent <= 90  && !reload){
-    sprite_index = Step9;
+    spriteToDraw = Step9;
 }
 else if(70 < percent && percent <= 80 && !reload){
-    sprite_index = Step8;
+    spriteToDraw = Step8;
 }
 else if(60 < percent && percent <= 70 && !reload){
-    sprite_index = Step7;
+    spriteToDraw = Step7;
 }
 else if(50 < percent && percent <= 60 && !reload){
-    sprite_index = Step6;
+    spriteToDraw = Step6;
 }
 else if(40 < percent && percent <= 50 && !reload){
-    sprite_index = Step5;
+    spriteToDraw = Step5;
 }
 else if(30 < percent && percent <= 40 && !reload){
-    sprite_index = Step4;
+    spriteToDraw = Step4;
 }
 else if(20 < percent && percent <= 40 && !reload){
-    sprite_index = Step3;
+    spriteToDraw = Step3;
 }
 else if(10 < percent && percent <= 20 && !reload){
-    sprite_index = Step2;
+    spriteToDraw = Step2;
 }
 else if(0 < percent && percent <= 10 && !reload){
-    sprite_index = Step1;
+    spriteToDraw = Step1;
 }
 else{
-    sprite_index = StepRELOAD;
+    spriteToDraw = StepRELOAD;
     reload = true;
 }
+
+sprite_index = spriteToDraw;
+draw_self();

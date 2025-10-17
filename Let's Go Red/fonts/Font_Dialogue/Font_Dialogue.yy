@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"Font2ah",
+  "%Name":"Font_Dialogue",
   "AntiAlias":1,
   "applyKerning":0,
   "ascender":25,
@@ -9,7 +9,7 @@
   "canGenerateBitmap":true,
   "charset":0,
   "first":0,
-  "fontName":"Arial Greek",
+  "fontName":"Arial",
   "glyphOperations":0,
   "glyphs":{
     "32":{"character":32,"h":31,"offset":0,"shift":8,"w":8,"x":2,"y":2,},
@@ -206,7 +206,7 @@
   "last":0,
   "lineHeight":31,
   "maintainGms1Font":false,
-  "name":"Font2ah",
+  "name":"Font_Dialogue",
   "parent":{
     "name":"Fonts",
     "path":"folders/Fonts.yy",
