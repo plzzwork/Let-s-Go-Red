@@ -8,12 +8,12 @@
   "instanceCreationOrder":[
     {"name":"inst_15C15237","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_40323431","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_1C5B086","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_365152F4","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_6910E959","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_6DF85980","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_A3DFD1A","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_43B23DEF","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_48FED273","path":"roomui/RoomUI/RoomUI.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -22,7 +22,6 @@
         {"$GMRInstance":"v2","%Name":"inst_40323431","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_40323431","objectId":{"name":"NPC_Sadley","path":"objects/NPC_Sadley/NPC_Sadley.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1120.0,"y":320.0,},
         {"$GMRInstance":"v2","%Name":"inst_15C15237","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_15C15237","objectId":{"name":"Player","path":"objects/Player/Player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":928.0,"y":480.0,},
         {"$GMRInstance":"v2","%Name":"inst_A3DFD1A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_A3DFD1A","objectId":{"name":"inventoryOpener","path":"objects/inventoryOpener/inventoryOpener.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":864.0,"y":544.0,},
-        {"$GMRInstance":"v2","%Name":"inst_1C5B086","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1C5B086","objectId":{"name":"SprintBar","path":"objects/SprintBar/SprintBar.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":3.0,"x":64.0,"y":32.0,},
         {"$GMRInstance":"v2","%Name":"inst_365152F4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_365152F4","objectId":{"name":"RoomTransition","path":"objects/RoomTransition/RoomTransition.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"RoomTransition","path":"objects/RoomTransition/RoomTransition.yy",},"propertyId":{"name":"TargetRoom","path":"objects/RoomTransition/RoomTransition.yy",},"resource":{"name":"Room2ah","path":"rooms/Room2ah/Room2ah.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Room2ah",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"RoomTransition","path":"objects/RoomTransition/RoomTransition.yy",},"propertyId":{"name":"x_SpawnPos","path":"objects/RoomTransition/RoomTransition.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1088",},
