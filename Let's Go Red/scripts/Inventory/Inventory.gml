@@ -8,6 +8,7 @@ function addItem(sprite, name, max_stack, desc){
     for (var i = 0; i < array_length(inv); ++i){
         if (inv[i].name == name && inv[i].qty + 1 <= inv[i].max_stack){
             inv[i].qty++;
+            show_debug_message(inv[i].qty);
             return "Added existing item to inventory";
         }
     }
@@ -17,12 +18,15 @@ function addItem(sprite, name, max_stack, desc){
     if (array_length(inv) == numSlots){
         return "Inventory is Full!";
     }
-    array_push(inv,{
-        sprite: sprite,
-        name: name,
-        max_stack: max_stack,
-        desc: desc,
-        qty: 1
-    }) 
-    return "Added Item!";
+    else{
+        array_push(inv,{
+            sprite: sprite,
+            name: name,
+            max_stack: max_stack,
+            desc: desc,
+            qty: 1
+        }) 
+        show_debug_message(array_length((inv)));
+        return "Added Item!";
+    }
 }

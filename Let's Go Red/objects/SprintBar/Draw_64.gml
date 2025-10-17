@@ -1,8 +1,9 @@
 //changes the sprint bar sprite depending on what their remaining stamina is
-if(percent == 100){
+if(percent >= 100){
     reload = false;
 }
-else if(percent > 90 && !reload){
+
+if(percent > 90 && !reload){
     sprite_index = Step10;
 }
 else if(80 < percent && percent <= 90  && !reload){
