@@ -39,5 +39,4 @@ else{
     reload = true;
 }
 
-sprite_index = spriteToDraw;
-draw_self();
+draw_sprite(spriteToDraw, 0, 15, 15);
