@@ -1,8 +1,15 @@
 draw_sprite_stretched(InventoryTest, 0, xloc, yloc, BGwidth, BGheight);
+//selector
 var centering = selectBorderSize / 2;
 draw_sprite_stretched(Select, 0, 
 currentSelectedX - centering, currentSelectedY - centering,
 spriteSide+selectBorderSize, spriteSide+selectBorderSize);
+
+//drawing item name and description
+if (currentSelected < array_length(inventory)){
+    draw_text(nameLocX, nameLocY, inventory[currentSelected].name);
+    draw_text(nameLocX, nameLocY + descOffset, inventory[currentSelected].desc);
+}
 
 var currentX = xloc + margin;
 var currentY = yloc + margin;

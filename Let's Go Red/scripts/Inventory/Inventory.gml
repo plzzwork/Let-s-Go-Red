@@ -34,3 +34,16 @@ function addItem(sprite, name, max_stack, desc){
     }) 
     return "Added Item!";
 }
+
+function removeItem(index){
+    //take away one
+    if (global.inv[index].qty > 1){
+        global.inv[index].qty--;
+        return "took away one item";
+    }
+    //completely remove
+    else{
+        array_delete(global.inv, index, 1);
+        return "took away entire item";
+    }
+}

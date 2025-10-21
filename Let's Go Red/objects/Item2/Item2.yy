@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Item",
+  "%Name":"Item2",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Item",
+  "name":"Item2",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_sus",
-    "path":"sprites/spr_sus/spr_sus.yy",
+    "name":"spr_sus2",
+    "path":"sprites/spr_sus2/spr_sus2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

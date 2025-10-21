@@ -1,5 +1,6 @@
+event_inherited();
 sprite = spr_sus;
 name = "suspicious bush";
-max_stack = 3;
-description = "what"
+max_stack = 5;
+description = "what";
 destroyAfterPickup = false;
