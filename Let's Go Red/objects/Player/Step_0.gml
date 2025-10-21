@@ -1,3 +1,16 @@
+var hit1 = collision_line(x-40, y, x-160, y-320, Item, false, true);
+var hit2 = collision_line(x+20, y, x+80, y-320, Item, false, true);
+
+var hit3 = collision_line(x-40, y, x-160, y-320, Item, false, true);
+var hit4 = collision_line(x+20, y, x+80, y-320, Item, false, true);
+
+var hit5 = collision_line(x, y, x, y-320, Item, false, true);
+
+if(hit1||hit2||hit3||hit4||hit5){
+    show_debug_message("In Range");
+}
+
+
 var _hor = keyboard_check((ord("D"))) - keyboard_check((ord("A")));
 var _ver = keyboard_check((ord("S"))) - keyboard_check((ord("W")));
 
@@ -6,6 +19,7 @@ var xMovement = cos(movementAngle);
 var yMovement = sin(movementAngle);
 
 // move_and_collide(moveX,moveY,collision_tiles, undefined, undefined, undefined, max_hor_speed, max_vert_speed);
+if(NPC__Parent.talking){return;}
 if(_ver != 0 || _hor != 0){
     var speedToUse = walk_speed;
     if(sprint_time <= 0){
