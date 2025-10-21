@@ -1,6 +1,6 @@
 function Inventory(){
     global.inv = [];
-    global.numSlots = 5;
+    global.numSlots = 6;
 }
 
 function ToggleInventory(){
