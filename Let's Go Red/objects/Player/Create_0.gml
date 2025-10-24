@@ -20,3 +20,21 @@ winded = false;
 sprint_wait_time = 0.75;
 
 isSprint = false;
+
+orient = 1
+
+x1 = 40;
+x2 = 160;
+x3 = 20;
+x4 = 80;
+
+y1 = 320;
+
+var movement_angle = 0;
+hit1 = false;
+hit2 = false;
+
+hit3 = false;
+hit4 = false;
+
+hit5 = false;

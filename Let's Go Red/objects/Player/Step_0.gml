@@ -1,14 +1,3 @@
-var hit1 = collision_line(x-40, y, x-160, y-320, Item, false, true);
-var hit2 = collision_line(x+20, y, x+80, y-320, Item, false, true);
-
-var hit3 = collision_line(x-40, y, x-160, y-320, Item, false, true);
-var hit4 = collision_line(x+20, y, x+80, y-320, Item, false, true);
-
-var hit5 = collision_line(x, y, x, y-320, Item, false, true);
-
-if(hit1||hit2||hit3||hit4||hit5){
-    show_debug_message("In Range");
-}
 
 
 var _hor = keyboard_check((ord("D"))) - keyboard_check((ord("A")));
@@ -44,9 +33,53 @@ if(_ver != 0 || _hor != 0){
     }
     
     move_and_collide(xMovement * speedToUse, yMovement * speedToUse,tilemap, undefined, undefined, undefined, speedToUse, speedToUse);
+    
+    if(movementAngle < 0){
+    movementAngle = movementAngle*-1;
+    }
+    else{
+        movementAngle = (movementAngle-360)*-1;
+    }
+    
+    if(movementAngle == 360 || movementAngle == 180){
+        if(movementAngle == 180){
+            hit1 = collision_line(x, y-x1, x-y1, y-x2, Item, false, true);
+            hit2 = collision_line(x,y-x3,x-y1,y-x4, Item, false, true);
+    
+            hit3 = collision_line(x, y+x1, x-y1, y+x2, Item, false ,true);
+            hit4 = collision_line(x,y+x3,x-y1, y+x4, Item, false, true);
+    
+            hit5 = collision_line(x,y,x-y1,y, Item, false ,true);
+        }
+        else{
+            hit1 = collision_line(x, y-x1, x+y1, y-x2, Item, false, true);
+            hit2 = collision_line(x,y-x3,x+y1,y-x4, Item, false, true);
+    
+            hit3 = collision_line(x, y+x1, x+y1, y+x2, Item, false ,true);
+            hit4 = collision_line(x,y+x3,x+y1, y+x4, Item, false, true);
+    
+            hit5 = collision_line(x,y,x+y1,y, Item, false ,true);
+        }
+        
+    }
+    else{
+        hit1 = collision_line(x, y, x + lengthdir_x(320, movementAngle) , y + lengthdir_y(320, movementAngle), Item, false, true);
+    
+        hit2 = collision_line(x-x1, y, x+ lengthdir_x(320, movementAngle) - x2, y + lengthdir_y(320, movementAngle), Item, false, true);
+        hit3 = collision_line(x+x1, y, x+ lengthdir_x(320, movementAngle) + x2, y + lengthdir_y(320, movementAngle), Item, false, true);
+    
+        hit4 = collision_line(x-x3,y,x-x4 + lengthdir_x(320, movementAngle), y+ lengthdir_y(320, movementAngle), Item, false, true); 
+        hit5 = collision_line(x+x3,y,x+x4 + lengthdir_x(320, movementAngle), y+ lengthdir_y(320, movementAngle), Item, false, true); 
+    }
+    
 }
+
 else{
     isSprint = false;
+}
+
+if(hit1 || hit2 || hit3 || hit4|| hit5){
+    show_debug_message("In range");
 }
 
 if(sprint_time < 5 && !isSprint){
