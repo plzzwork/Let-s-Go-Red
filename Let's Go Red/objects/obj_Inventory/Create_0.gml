@@ -4,12 +4,12 @@
 //margin: basically page margins
 //maxRow: how many items can be lined up on one row
 //spriteSide: side length of each slot
-BGwidth = 600;
-BGheight = 400;
+BGwidth = 700;
+BGheight = 300;
 slotGap = 20;
 margin = 40;
 maxRow = 3;
-spriteSide = 128;
+spriteSide = 96;
 
 inventory = global.inv;
 gui_w = display_get_gui_width();
@@ -22,6 +22,10 @@ draw_set_font(InventoryFont);
 //center of screen
 xloc = display_get_gui_width() / 2 - BGwidth / 2;
 yloc = display_get_gui_height() / 2 - BGheight / 2;
+
+nameLocX = xloc + 500;
+nameLocY = yloc + 50;
+descOffset = 25;
 
 currentSelected = 0;
 currentSelectedX = xloc + margin;

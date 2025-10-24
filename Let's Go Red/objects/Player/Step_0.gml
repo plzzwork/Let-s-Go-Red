@@ -8,6 +8,7 @@ var xMovement = cos(movementAngle);
 var yMovement = sin(movementAngle);
 
 // move_and_collide(moveX,moveY,collision_tiles, undefined, undefined, undefined, max_hor_speed, max_vert_speed);
+if(NPC__Parent.talking){return;}
 if(_ver != 0 || _hor != 0){
     var speedToUse = walk_speed;
     if(sprint_time <= 0){

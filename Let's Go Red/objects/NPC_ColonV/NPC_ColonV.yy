@@ -1,19 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"Item",
+  "%Name":"NPC_ColonV",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Item",
+  "name":"NPC_ColonV",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"NPCs",
+    "path":"folders/Objects/NPCs.yy",
   },
   "parentObjectId":{
-    "name":"Item_Parent",
-    "path":"objects/Item_Parent/Item_Parent.yy",
+    "name":"NPC__Parent",
+    "path":"objects/NPC__Parent/NPC__Parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_sus",
-    "path":"sprites/spr_sus/spr_sus.yy",
+    "name":"spr_ColonV",
+    "path":"sprites/spr_ColonV/spr_ColonV.yy",
   },
   "spriteMaskId":null,
   "visible":true,

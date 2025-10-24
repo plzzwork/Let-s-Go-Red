@@ -1,5 +1,8 @@
 textIndex += 1;
 if(textIndex > string_length(currentMessageStruct.text)){
+    if(currentMessageStruct[$ "endFunc"] != undefined){
+        currentMessageStruct.endFunc();
+    }
     return;
 }
 
