@@ -30,7 +30,6 @@ x4 = 80;
 
 y1 = 320;
 
-var movement_angle = 0;
 hit1 = false;
 hit2 = false;
 
@@ -38,3 +37,5 @@ hit3 = false;
 hit4 = false;
 
 hit5 = false;
+
+movementAngle = 0.0;

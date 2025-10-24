@@ -1,19 +1,5 @@
 draw_self();
 
-var _hor = keyboard_check((ord("D"))) - keyboard_check((ord("A")));
-var _ver = keyboard_check((ord("S"))) - keyboard_check((ord("W")));
-
-var movementAngle = arctan2(_ver, _hor);
-
-movementAngle = movementAngle*(180/pi);
-
-if(movementAngle < 0){
-    movementAngle = movementAngle*-1;
-}
-else{
-    movementAngle = (movementAngle-360)*-1;
-}
-
 if(movementAngle == 360 || movementAngle == 180){
     if(movementAngle == 180){
         draw_line_color(x, y-x1, x-y1, y-x2, c_red, c_red);

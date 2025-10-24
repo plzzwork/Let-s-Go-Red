@@ -1,14 +1,17 @@
-
-
 var _hor = keyboard_check((ord("D"))) - keyboard_check((ord("A")));
 var _ver = keyboard_check((ord("S"))) - keyboard_check((ord("W")));
 
-var movementAngle = arctan2(_ver, _hor);
+if( _hor != 0 || _ver != 0){
+    movementAngle = arctan2(_ver, _hor);
+}
+
 var xMovement = cos(movementAngle);
 var yMovement = sin(movementAngle);
 
 // move_and_collide(moveX,moveY,collision_tiles, undefined, undefined, undefined, max_hor_speed, max_vert_speed);
 if(NPC__Parent.talking){return;}
+    
+
 if(_ver != 0 || _hor != 0){
     var speedToUse = walk_speed;
     if(sprint_time <= 0){
@@ -35,6 +38,8 @@ if(_ver != 0 || _hor != 0){
     
     move_and_collide(xMovement * speedToUse, yMovement * speedToUse,tilemap, undefined, undefined, undefined, speedToUse, speedToUse);
     
+    movementAngle = movementAngle*(180/pi);
+    
     if(movementAngle < 0){
     movementAngle = movementAngle*-1;
     }
@@ -44,33 +49,33 @@ if(_ver != 0 || _hor != 0){
     
     if(movementAngle == 360 || movementAngle == 180){
         if(movementAngle == 180){
-            hit1 = collision_line(x, y-x1, x-y1, y-x2, Item, false, true);
-            hit2 = collision_line(x,y-x3,x-y1,y-x4, Item, false, true);
+            hit1 = collision_line(x, y-x1, x-y1, y-x2, Item_Parent, false, true);
+            hit2 = collision_line(x,y-x3,x-y1,y-x4, Item_Parent, false, true);
     
-            hit3 = collision_line(x, y+x1, x-y1, y+x2, Item, false ,true);
-            hit4 = collision_line(x,y+x3,x-y1, y+x4, Item, false, true);
+            hit3 = collision_line(x, y+x1, x-y1, y+x2, Item_Parent, false ,true);
+            hit4 = collision_line(x,y+x3,x-y1, y+x4, Item_Parent, false, true);
     
-            hit5 = collision_line(x,y,x-y1,y, Item, false ,true);
+            hit5 = collision_line(x,y,x-y1,y, Item_Parent, false ,true);
         }
         else{
-            hit1 = collision_line(x, y-x1, x+y1, y-x2, Item, false, true);
-            hit2 = collision_line(x,y-x3,x+y1,y-x4, Item, false, true);
+            hit1 = collision_line(x, y-x1, x+y1, y-x2, Item_Parent, false, true);
+            hit2 = collision_line(x,y-x3,x+y1,y-x4, Item_Parent, false, true);
     
-            hit3 = collision_line(x, y+x1, x+y1, y+x2, Item, false ,true);
-            hit4 = collision_line(x,y+x3,x+y1, y+x4, Item, false, true);
+            hit3 = collision_line(x, y+x1, x+y1, y+x2, Item_Parent, false ,true);
+            hit4 = collision_line(x,y+x3,x+y1, y+x4, Item_Parent, false, true);
     
-            hit5 = collision_line(x,y,x+y1,y, Item, false ,true);
+            hit5 = collision_line(x,y,x+y1,y, Item_Parent, false ,true);
         }
         
     }
     else{
-        hit1 = collision_line(x, y, x + lengthdir_x(320, movementAngle) , y + lengthdir_y(320, movementAngle), Item, false, true);
+        hit1 = collision_line(x, y, x + lengthdir_x(320, movementAngle) , y + lengthdir_y(320, movementAngle), Item_Parent, false, true);
     
-        hit2 = collision_line(x-x1, y, x+ lengthdir_x(320, movementAngle) - x2, y + lengthdir_y(320, movementAngle), Item, false, true);
-        hit3 = collision_line(x+x1, y, x+ lengthdir_x(320, movementAngle) + x2, y + lengthdir_y(320, movementAngle), Item, false, true);
+        hit2 = collision_line(x-x1, y, x+ lengthdir_x(320, movementAngle) - x2, y + lengthdir_y(320, movementAngle), Item_Parent, false, true);
+        hit3 = collision_line(x+x1, y, x+ lengthdir_x(320, movementAngle) + x2, y + lengthdir_y(320, movementAngle), Item_Parent, false, true);
     
-        hit4 = collision_line(x-x3,y,x-x4 + lengthdir_x(320, movementAngle), y+ lengthdir_y(320, movementAngle), Item, false, true); 
-        hit5 = collision_line(x+x3,y,x+x4 + lengthdir_x(320, movementAngle), y+ lengthdir_y(320, movementAngle), Item, false, true); 
+        hit4 = collision_line(x-x3,y,x-x4 + lengthdir_x(320, movementAngle), y+ lengthdir_y(320, movementAngle), Item_Parent, false, true); 
+        hit5 = collision_line(x+x3,y,x+x4 + lengthdir_x(320, movementAngle), y+ lengthdir_y(320, movementAngle), Item_Parent, false, true); 
     }
     
 }
@@ -79,7 +84,7 @@ else{
     isSprint = false;
 }
 
-if(hit1 || hit2 || hit3 || hit4|| hit5){
+if(hit1 != noone || hit2 != noone || hit3 != noone || hit4 != noone|| hit5 != noone){
     show_debug_message("In range");
 }
 
