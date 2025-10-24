@@ -48,6 +48,7 @@ else if (keyboard_check_pressed(vk_right)){
     show_debug_message("placeA: {0} Selected: {1}", currentSelectedX, currentSelected);
 }
 
-if (keyboard_check_pressed(ord("V"))){
+if (keyboard_check_pressed(ord("V"))){ 
     show_debug_message(removeItem(currentSelected));
+    
 }

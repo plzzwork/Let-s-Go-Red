@@ -6,7 +6,7 @@ var distToPlayer = sqrt(distToPlayerX*distToPlayerX + distToPlayerY*distToPlayer
 var inTalkingDistance = distToPlayer < 200;
 
 if(keyboard_check_pressed(vk_space) && inTalkingDistance){
-    show_debug_message(addItem(sprite, name, max_stack, description));
+    show_debug_message(addItem(sprite, name, max_stack, description, consumable, func));
     if (destroyAfterPickup)
         instance_destroy();
 }
