@@ -9,7 +9,7 @@ var xMovement = cos(movementAngle);
 var yMovement = sin(movementAngle);
 
 // move_and_collide(moveX,moveY,collision_tiles, undefined, undefined, undefined, max_hor_speed, max_vert_speed);
-if(NPC__Parent.talking){return;}
+if(NPC__Parent.talkingTo != noone){return;}
     
 
 if(_ver != 0 || _hor != 0){
@@ -85,7 +85,7 @@ else{
 }
 
 if(hit1 != noone || hit2 != noone || hit3 != noone || hit4 != noone|| hit5 != noone){
-    show_debug_message("In range");
+    //show_debug_message("In range");
 }
 
 if(sprint_time < 5 && !isSprint){

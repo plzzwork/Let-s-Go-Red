@@ -1,3 +1,6 @@
+if(NPC__Parent.talkingTo != id){return;}
+    
+
 var gui_w = display_get_gui_width();
 var gui_h = display_get_gui_height();
 
@@ -6,8 +9,7 @@ var _y = gui_h * 0.7;
 var _boxw = gui_w;
 var _boxh = gui_h - _y;
 
-if(!talking){return;}
-    
+
 draw_set_halign(fa_left);
 draw_set_valign(fa_top);
 draw_set_color(c_black);

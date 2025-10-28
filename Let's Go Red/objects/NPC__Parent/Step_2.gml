@@ -1,0 +1,1 @@
+NPC__Parent.debounce = false;

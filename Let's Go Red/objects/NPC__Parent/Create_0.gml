@@ -1,6 +1,7 @@
 distToPlayer = 0;
 inTalkingDistance = false;
-talking = false;
+talkingTo = noone;
+debounce = false;
 
 conversationIndex = 0;
 textIndex = 0;
@@ -20,8 +21,8 @@ currentMessageStruct = {name: "", text: ""};
 //On NPC interacted with
 function talk(){
 
-    if(!talking or textIndex > string_length(currentMessageStruct.text)){
-        talking = true;
+    if(NPC__Parent.talkingTo == noone || textIndex > string_length(currentMessageStruct.text)){
+        NPC__Parent.talkingTo = id;
         textIndex = 0; 
         currentDrawnText = "";
         if(conversationIndex < array_length(conversation)){ 
@@ -30,7 +31,8 @@ function talk(){
         }else{
             conversationIndex = 0;
             currentMessageStruct = {name: "", text: ""};
-            talking = false;
+            NPC__Parent.talkingTo = noone;
+            NPC__Parent.debounce = true;
             return;
         }
     }else{
@@ -38,7 +40,7 @@ function talk(){
         currentDrawnText = currentMessageStruct.text;
     }
     
-    alarm_set(0, 1);
+    alarm_set(0, getWaitTimeForCharacter(""));
     
 }
 
