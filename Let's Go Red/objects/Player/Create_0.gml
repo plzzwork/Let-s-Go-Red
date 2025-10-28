@@ -39,3 +39,4 @@ hit4 = false;
 hit5 = false;
 
 movementAngle = 0.0;
+instance_activate_layer("GameUI")
