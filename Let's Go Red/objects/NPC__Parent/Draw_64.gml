@@ -7,15 +7,16 @@ var _boxw = gui_w;
 var _boxh = gui_h - _y;
 
 if(!talking){return;}
+    
+draw_set_halign(fa_left);
+draw_set_valign(fa_top);
+draw_set_color(c_black);
+draw_set_font(Font_Dialogue);
 
 draw_sprite(spr_DialogueBox2,0,0,0);
 if(currentMessageStruct.name != ""){
     draw_sprite(spr_DialogueSpeaker, 0, 0, 0);
 }
-
-draw_set_font(Font_Dialogue);
-
-//var name = messages[current_msg].name;
 
 var textColor = nameColors[$ currentMessageStruct.name];
 textColor = textColor ?? c_black;
