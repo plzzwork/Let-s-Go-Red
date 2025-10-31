@@ -1,11 +1,6 @@
 // Inherit the parent event
 event_inherited();
 
-nameColors = {
-    "John" : c_aqua,
-    "Jonathan" : c_red
-};
-
 conversation = [
 {
     name: "John",

@@ -2,11 +2,6 @@ event_inherited()
 
 spawnedItem = false;
 
-nameColors = {
-    "ColonV" : c_green,
-    "You" : c_black
-};
-
 alreadySpawnedObject = false;
 
 instance_deactivate_object(Item);

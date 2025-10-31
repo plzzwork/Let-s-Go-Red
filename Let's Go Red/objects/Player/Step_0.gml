@@ -1,5 +1,5 @@
-var _hor = keyboard_check((ord("D"))) - keyboard_check((ord("A")));
-var _ver = keyboard_check((ord("S"))) - keyboard_check((ord("W")));
+var _hor = keyboard_check(vk_right) - keyboard_check(vk_left);
+var _ver = keyboard_check(vk_down) - keyboard_check(vk_up);
 
 if( _hor != 0 || _ver != 0){
     movementAngle = arctan2(_ver, _hor);
@@ -9,7 +9,7 @@ var xMovement = cos(movementAngle);
 var yMovement = sin(movementAngle);
 
 // move_and_collide(moveX,moveY,collision_tiles, undefined, undefined, undefined, max_hor_speed, max_vert_speed);
-if(NPC__Parent.talkingTo != noone){return;}
+if(obj_Dialogue.talkingTo != noone){return;}
     
 
 if(_ver != 0 || _hor != 0){
