@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_Dialogue_Parent",
+  "%Name":"Legacy_obj_Dialogue_Parent",
   "eventList":[],
   "managed":true,
-  "name":"obj_Dialogue_Parent",
+  "name":"Legacy_obj_Dialogue_Parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"_Old Stuff",
+    "path":"folders/Objects/_Old Stuff.yy",
   },
   "parentObjectId":null,
   "persistent":false,
