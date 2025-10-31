@@ -50,5 +50,4 @@ else if (keyboard_check_pressed(vk_right)){
 
 if (keyboard_check_pressed(ord("V"))){ 
     show_debug_message(removeItem(currentSelected));
-    
 }

@@ -41,8 +41,9 @@ function removeItem(index){
     if (index >= array_length(global.inv)){
         return "index out of bounds";
     }
-    global.inv[index].func();
-    if (!global.inv[index].consumable)
+    var item = global.inv[index];
+    item.func();
+    if (!item.consumable)
         return "Non-consumable Item!";
     //take away one
     if (global.inv[index].qty > 1){
