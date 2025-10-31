@@ -14,6 +14,7 @@
     {"name":"inst_A3DFD1A","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_3763DD08","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_48FED273","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"inst_249A9CF2","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -34,6 +35,7 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"RoomTransition","path":"objects/RoomTransition/RoomTransition.yy",},"propertyId":{"name":"y_SpawnPos","path":"objects/RoomTransition/RoomTransition.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"245",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":640.0,"y":608.0,},
         {"$GMRInstance":"v4","%Name":"inst_3763DD08","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3763DD08","objectId":{"name":"NPC_ColonV","path":"objects/NPC_ColonV/NPC_ColonV.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":352.0,"y":352.0,},
+        {"$GMRInstance":"v4","%Name":"inst_249A9CF2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_249A9CF2","objectId":{"name":"Enemy_Madley","path":"objects/Enemy_Madley/Enemy_Madley.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":1.5,"x":384.0,"y":192.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":199,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"WhitePixel","path":"sprites/WhitePixel/WhitePixel.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
   ],

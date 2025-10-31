@@ -39,6 +39,8 @@
   "resources":[
     {"id":{"name":"Font_Dialogue","path":"fonts/Font_Dialogue/Font_Dialogue.yy",},},
     {"id":{"name":"InventoryFont","path":"fonts/InventoryFont/InventoryFont.yy",},},
+    {"id":{"name":"Enemy_Madley","path":"objects/Enemy_Madley/Enemy_Madley.yy",},},
+    {"id":{"name":"Enemy_Parent","path":"objects/Enemy_Parent/Enemy_Parent.yy",},},
     {"id":{"name":"inventoryOpener","path":"objects/inventoryOpener/inventoryOpener.yy",},},
     {"id":{"name":"Item_Parent","path":"objects/Item_Parent/Item_Parent.yy",},},
     {"id":{"name":"Item","path":"objects/Item/Item.yy",},},
@@ -60,6 +62,7 @@
     {"id":{"name":"Dialogue","path":"scripts/Dialogue/Dialogue.yy",},},
     {"id":{"name":"Inventory","path":"scripts/Inventory/Inventory.yy",},},
     {"id":{"name":"InventoryTest","path":"sprites/InventoryTest/InventoryTest.yy",},},
+    {"id":{"name":"Madley","path":"sprites/Madley/Madley.yy",},},
     {"id":{"name":"Select","path":"sprites/Select/Select.yy",},},
     {"id":{"name":"Smiley","path":"sprites/Smiley/Smiley.yy",},},
     {"id":{"name":"spr_ColonV","path":"sprites/spr_ColonV/spr_ColonV.yy",},},

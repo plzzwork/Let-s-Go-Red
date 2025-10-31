@@ -21,8 +21,7 @@ sprint_wait_time = 0.75;
 
 isSprint = false;
 
-orient = 1
-
+//variables used when creating the scan lines used in the flashlight
 x1 = 40;
 x2 = 160;
 x3 = 20;
@@ -30,6 +29,7 @@ x4 = 80;
 
 y1 = 320;
 
+//checks if the raycasts hit anything
 hit1 = false;
 hit2 = false;
 
@@ -38,5 +38,6 @@ hit4 = false;
 
 hit5 = false;
 
+//angle that the player is moving in
 movementAngle = 0.0;
 layer_set_visible("GameUI", true)
