@@ -38,6 +38,9 @@ hit4 = false;
 
 hit5 = false;
 
+//access level controls which doors you have access to (higher = better)
+cardLevel = 1;
+
 //angle that the player is moving in
 movementAngle = 0.0;
 layer_set_visible("GameUI", true)
