@@ -64,6 +64,7 @@
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
     {"id":{"name":"RoomTransition","path":"objects/RoomTransition/RoomTransition.yy",},},
     {"id":{"name":"SprintBar","path":"objects/SprintBar/SprintBar.yy",},},
+    {"id":{"name":"Wall_Parent","path":"objects/Wall_Parent/Wall_Parent.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Room2ah","path":"rooms/Room2ah/Room2ah.yy",},},
     {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},},

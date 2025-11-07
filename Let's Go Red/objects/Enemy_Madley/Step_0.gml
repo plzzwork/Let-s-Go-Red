@@ -2,9 +2,9 @@
 event_inherited();
 
 //Checks if the player found the id for this specific enemy
-if(Player.hit1 == id || Player.hit2 == id || Player.hit3 == id || Player.hit4 == id || Player.hit5 == id){
+if(Player.hit1 == id || Player.hit2 == id || Player.hit3 == id || Player.hit4 == id || Player.hit5 == id || Player.hit6 == id || Player.hit7 == id || Player.hit8 == id || Player.hit9 == id){
     ifSpotted = true;
-    spot_time = 0.5;
+    spot_time = 0.75;
 }
 
 //Enemy will not start moving until spot_time reaches 0
