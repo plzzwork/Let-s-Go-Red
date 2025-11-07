@@ -15,9 +15,9 @@ draw_set_valign(fa_top);
 draw_set_color(c_black);
 draw_set_font(Font_Dialogue);
 
-draw_sprite(spr_DialogueBox2,0,0,0);
+draw_sprite(spr_ui_DialogueBox,0,0,0);
 if(currentMessageStruct.name != ""){
-    draw_sprite(spr_DialogueSpeaker, 0, 0, 0);
+    draw_sprite(spr_ui_DialogueSpeaker, 0, 0, 0);
 }
 
 var textColor = global.nameColors[$ currentMessageStruct.name];
