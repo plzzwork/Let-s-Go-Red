@@ -7,5 +7,4 @@ destroyAfterPickup = false;
 consumable = false;
 func = function(){
     Player.sprint_time = 5;
-    room_goto(Room3);
 }

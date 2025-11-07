@@ -1,6 +1,8 @@
 function Inventory(){
     global.inv = [];
     global.numSlots = 6;
+    global.keyCardinv = [];
+    global.maxAccessLevel = 1;
 }
 
 function ToggleInventory(){
@@ -35,6 +37,15 @@ function addItem(sprite, name, max_stack, desc, consumable, func){
         func: func
     }) 
     return "Added Item!";
+}
+
+function addKeyCard(sprite, accessLevel){
+    array_push(global.keyCardinv, {
+        sprite: sprite,
+        accessLevel: accessLevel
+    })
+    if (accessLevel > global.maxAccessLevel)
+        global.maxAccessLevel = accessLevel;
 }
 
 function removeItem(index){
