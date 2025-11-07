@@ -7,4 +7,4 @@ speed = 0;
 ifSpotted = false;
 
 //time until the enemy goes back into the unspotted mode.
-spot_time = 0.5;
+spot_time = 0.75;

@@ -24,8 +24,14 @@ isSprint = false;
 //variables used when creating the scan lines used in the flashlight
 x1 = 40;
 x2 = 160;
+
 x3 = 20;
 x4 = 80;
+
+x5 = 30;
+x6 = 120;
+
+x7 = 10;
 
 y1 = 320;
 
@@ -37,6 +43,12 @@ hit3 = false;
 hit4 = false;
 
 hit5 = false;
+hit6 = false;
+
+hit7 = false;
+hit8 = false;
+
+hit9 = false;
 
 //angle that the player is moving in
 movementAngle = 0.0;
