@@ -1,12 +1,26 @@
-pauseMenuEnabled = false;
-timePausedFor = 0;
-pauseSelectionIndex = 0;
+//Settings/Global
+pauseMenuEnabled = false;           //Yeah
+pauseSelectionIndex = 0;            //Index of currently selected menu thing
 
-_uniColor = shader_get_uniform(PauseMenuDarkenWorld, "u_colour");
+autoScrollDelay = 0.3;              //Delay before autoscroll begins
+autoScrollAutoScrollRate = 0.1;     //Delay between each autoscroll
 
-menuOptions =  [
+//Internal
+timePausedFor = 0;                  //Time pause menu has been opened
+autoScrollTimer = 0;                //Internal clock for autoscroll
+autoScrollTarget = 0;               //Internal target for autoscroll clock
+
+menuOptions =  [ 
+{
+    optionName: "Inventory",
+    openFunction: function() {}
+},
 {
     optionName: "Save",
+    openFunction: function() {}
+},
+{
+    optionName: "Load",
     openFunction: function() {}
 },
 {
@@ -18,3 +32,6 @@ menuOptions =  [
     openFunction: function(){}
 }
 ];
+
+
+_uniColor = shader_get_uniform(PauseMenuDarkenWorld, "u_colour");

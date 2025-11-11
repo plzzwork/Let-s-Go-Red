@@ -24,9 +24,10 @@ y = 0;
 draw_self();
 
 draw_set_halign(fa_center);
-draw_set_colour(c_white);
-draw_sprite_stretched(WhitePixel, 0,
-x + sprite_width/2, 50 + pauseSelectionIndex * 55,sprite_width * 0.8, 50);
+draw_sprite_stretched_ext(WhitePixel, 0,
+x + sprite_width * 0.1, 50 + pauseSelectionIndex * 55,sprite_width * 0.8, 50,
+make_colour_rgb(248,236,236), 0.5 + 0.5 * abs(sin((get_timer()/1000000) * 2)));
+draw_set_colour(c_black);
 for(var i = 0; i < array_length(menuOptions); i ++){
     draw_set_font(Font_MenuButton)
     draw_text(x + sprite_width/2, 50 + i * 55, menuOptions[i].optionName);
