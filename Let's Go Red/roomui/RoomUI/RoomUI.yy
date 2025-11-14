@@ -22,5 +22,5 @@
           ],"flexDirection":0,"height":{"unit":3,"value":16.0,},"justifyContent":1,"name":"FlexPanel_1","nodeColour":4294088008,"resourceType":"GMRFlexPanel","resourceVersion":"2.0","width":{"unit":3,"value":16.0,},},
       ],"flexDirection":0,"gridX":32,"gridY":32,"justifyContent":1,"name":"GameUI","nodeColour":4284478024,"resourceType":"GMRUILayer","resourceVersion":"2.0","visible":false,},
   ],
-  "visible":true,
+  "visible":false,
 }
