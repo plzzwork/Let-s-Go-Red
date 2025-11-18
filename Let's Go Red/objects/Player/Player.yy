@@ -38,8 +38,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Smiley",
-    "path":"sprites/Smiley/Smiley.yy",
+    "name":"spr_PlayerPlaceholder",
+    "path":"sprites/spr_PlayerPlaceholder/spr_PlayerPlaceholder.yy",
   },
   "spriteMaskId":null,
   "visible":true,
