@@ -36,7 +36,7 @@ if(_ver != 0 || _hor != 0){
         isSprint = false;
     }
     
-    move_and_collide(xMovement * speedToUse, yMovement * speedToUse,tilemap, undefined, undefined, undefined, speedToUse, speedToUse);
+    move_and_collide(xMovement * speedToUse, yMovement * speedToUse, [tilemap, Wall_Parent], 1, undefined, undefined, speedToUse, speedToUse);
     
     movementAngle = movementAngle*(180/pi);
     
@@ -115,34 +115,10 @@ if(sprint_time < 5 && !isSprint){
 
 //show_debug_message(sprint_time);
 
-// if moving, set sprite
-if (_hor != 0 or _ver != 0){
-    /*
-    if (_ver < 0){
-        sprite_index = spr_player_walk_up;
-    } else if (_ver > 0) {
-        sprite_index = spr_player_walk_down;
-    } else if (_hor > 0) {
-        sprite_index = spr_player_walk_right;
-    }  else if (_hor < 0) {
-        sprite_index = spr_player_walk_left;
-    }
-     */
-} else { // if not moving, set to idle sprite
-    /*
-    if (sprite_index == spr_player_walk_right) {
-        sprite_index = spr_player_idle_right;
-    } else if (sprite_index == spr_player_walk_left) {
-        sprite_index = spr_player_idle_left;
-    } else if (sprite_index == spr_player_walk_down) {
-        sprite_index = spr_player_idle_down;
-    } else if (sprite_index == spr_player_walk_up) {
-        sprite_index = spr_player_idle_up;
-    }
-    */
+if(place_meeting(x, y, Wall_Parent)){
+    x -= 10;
 }
 
 if (hp <= 0){
     game_restart();
 }
-

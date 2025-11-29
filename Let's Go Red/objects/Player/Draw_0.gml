@@ -46,7 +46,5 @@ else{
     draw_line_color(x+x5,y,x+x6 + lengthdir_x(320, movementAngle), y+ lengthdir_y(320, movementAngle), c_red, c_red); 
     
     draw_line_color(x-x7,y,x-x1 + lengthdir_x(320, movementAngle), y+ lengthdir_y(320, movementAngle), c_red, c_red);
-    draw_line_color(x+x7,y,x+x1 + lengthdir_x(320, movementAngle), y+ lengthdir_y(320, movementAngle), c_red, c_red); 
-    
-    
+    draw_line_color(x+x7,y,x+x1 + lengthdir_x(320, movementAngle), y+ lengthdir_y(320, movementAngle), c_red, c_red);
 }
