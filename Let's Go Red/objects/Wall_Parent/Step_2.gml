@@ -1,0 +1,1 @@
+obj_Dialogue.debounce = false;

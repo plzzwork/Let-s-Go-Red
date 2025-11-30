@@ -23,7 +23,7 @@
   ],
   "name":"spr_fh_Warren",
   "nineSlice":null,
-  "origin":0,
+  "origin":6,
   "parent":{
     "name":"Buildings",
     "path":"folders/Sprites/Buildings.yy",
@@ -76,7 +76,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":0,
-    "yorigin":0,
+    "yorigin":531,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
