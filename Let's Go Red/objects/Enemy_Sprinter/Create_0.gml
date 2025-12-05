@@ -9,3 +9,5 @@ sprint_wait_time = 2;
 
 sprint_x = 0;
 sprint_y = 0;
+
+detect_time = 0;
