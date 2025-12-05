@@ -34,17 +34,17 @@ if(movementAngle == 360 || movementAngle == 180){
     
 }
 else{
-    draw_line_color(x, y, x + lengthdir_x(320, movementAngle) , y + lengthdir_y(320, movementAngle), c_blue, c_blue);
+    draw_line_color(x, y, x + lengthdir_x(160, movementAngle) , y + lengthdir_y(160, movementAngle), c_blue, c_blue);
 
-    draw_line_color(x-x1, y, x+ lengthdir_x(320, movementAngle) - x2, y + lengthdir_y(320, movementAngle), c_blue, c_blue);
-    draw_line_color(x+x1, y, x+ lengthdir_x(320, movementAngle) + x2, y + lengthdir_y(320, movementAngle), c_blue, c_blue);
+    draw_line_color(x-x1, y, x+ lengthdir_x(160, movementAngle) - x2, y + lengthdir_y(160, movementAngle), c_blue, c_blue);
+    draw_line_color(x+x1, y, x+ lengthdir_x(160, movementAngle) + x2, y + lengthdir_y(160, movementAngle), c_blue, c_blue);
 
-    draw_line_color(x-x3,y,x-x4 + lengthdir_x(320, movementAngle), y+ lengthdir_y(320, movementAngle), c_red, c_red);
-    draw_line_color(x+x3,y,x+x4 + lengthdir_x(320, movementAngle), y+ lengthdir_y(320, movementAngle), c_red, c_red); 
+    draw_line_color(x-x3,y,x-x4 + lengthdir_x(160, movementAngle), y+ lengthdir_y(160, movementAngle), c_red, c_red);
+    draw_line_color(x+x3,y,x+x4 + lengthdir_x(160, movementAngle), y+ lengthdir_y(160, movementAngle), c_red, c_red); 
     
-    draw_line_color(x-x5,y,x-x6 + lengthdir_x(320, movementAngle), y+ lengthdir_y(320, movementAngle), c_red, c_red);
-    draw_line_color(x+x5,y,x+x6 + lengthdir_x(320, movementAngle), y+ lengthdir_y(320, movementAngle), c_red, c_red); 
-    
-    draw_line_color(x-x7,y,x-x1 + lengthdir_x(320, movementAngle), y+ lengthdir_y(320, movementAngle), c_red, c_red);
-    draw_line_color(x+x7,y,x+x1 + lengthdir_x(320, movementAngle), y+ lengthdir_y(320, movementAngle), c_red, c_red);
+    draw_line_color(x-x5,y,x-x6 + lengthdir_x(160, movementAngle), y+ lengthdir_y(160, movementAngle), c_red, c_red);
+    draw_line_color(x+x5,y,x+x6 + lengthdir_x(160, movementAngle), y+ lengthdir_y(160, movementAngle), c_red, c_red); 
+
+    draw_line_color(x-x7,y,x-x1 + lengthdir_x(160, movementAngle), y+ lengthdir_y(160, movementAngle), c_red, c_red);
+    draw_line_color(x+x7,y,x+x1 + lengthdir_x(160, movementAngle), y+ lengthdir_y(160, movementAngle), c_red, c_red);
 }

@@ -81,19 +81,19 @@ if(_ver != 0 || _hor != 0){
         
     }
     else{
-        hit9 = collision_line(x, y, x + lengthdir_x(320, movementAngle) , y + lengthdir_y(320, movementAngle), Enemy_Parent, false, true);
+        hit9 = collision_line(x, y, x + lengthdir_x(160, movementAngle) , y + lengthdir_y(160, movementAngle), Enemy_Parent, false, true);
     
-        hit1 = collision_line(x-x1, y, x+ lengthdir_x(320, movementAngle) - x2, y + lengthdir_y(320, movementAngle), Enemy_Parent, false, true);
-        hit2 = collision_line(x+x1, y, x+ lengthdir_x(320, movementAngle) + x2, y + lengthdir_y(320, movementAngle), Item_Parent, false, true);
+        hit1 = collision_line(x-x1, y, x+ lengthdir_x(160, movementAngle) - x2, y + lengthdir_y(160, movementAngle), Enemy_Parent, false, true);
+        hit2 = collision_line(x+x1, y, x+ lengthdir_x(160, movementAngle) + x2, y + lengthdir_y(160, movementAngle), Item_Parent, false, true);
     
-        hit3 = collision_line(x-x3,y,x-x4 + lengthdir_x(320, movementAngle), y+ lengthdir_y(320, movementAngle), Enemy_Parent, false, true); 
-        hit4 = collision_line(x+x3,y,x+x4 + lengthdir_x(320, movementAngle), y+ lengthdir_y(320, movementAngle), Enemy_Parent, false, true);
+        hit3 = collision_line(x-x3,y,x-x4 + lengthdir_x(160, movementAngle), y+ lengthdir_y(160, movementAngle), Enemy_Parent, false, true); 
+        hit4 = collision_line(x+x3,y,x+x4 + lengthdir_x(160, movementAngle), y+ lengthdir_y(160, movementAngle), Enemy_Parent, false, true);
         
-        hit5 = collision_line(x-x5,y,x-x6 + lengthdir_x(320, movementAngle), y+ lengthdir_y(320, movementAngle), Enemy_Parent, false, true); 
-        hit6 = collision_line(x+x5,y,x+x6 + lengthdir_x(320, movementAngle), y+ lengthdir_y(320, movementAngle), Enemy_Parent, false, true); 
+        hit5 = collision_line(x-x5,y,x-x6 + lengthdir_x(160, movementAngle), y+ lengthdir_y(160, movementAngle), Enemy_Parent, false, true); 
+        hit6 = collision_line(x+x5,y,x+x6 + lengthdir_x(160, movementAngle), y+ lengthdir_y(160, movementAngle), Enemy_Parent, false, true); 
         
-        hit7 = collision_line(x-x7,y,x-x1 + lengthdir_x(320, movementAngle), y+ lengthdir_y(320, movementAngle), Enemy_Parent, false, true); 
-        hit8 = collision_line(x+x7,y,x+x1 + lengthdir_x(320, movementAngle), y+ lengthdir_y(320, movementAngle), Enemy_Parent, false, true);
+        hit7 = collision_line(x-x7,y,x-x1 + lengthdir_x(160, movementAngle), y+ lengthdir_y(160, movementAngle), Enemy_Parent, false, true); 
+        hit8 = collision_line(x+x7,y,x+x1 + lengthdir_x(160, movementAngle), y+ lengthdir_y(160, movementAngle), Enemy_Parent, false, true);
     }
     
 }

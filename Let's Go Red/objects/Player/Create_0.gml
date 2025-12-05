@@ -33,7 +33,7 @@ x6 = 120;
 
 x7 = 10;
 
-y1 = 320;
+y1 = 160;
 
 //checks if the raycasts hit anything
 hit1 = false;

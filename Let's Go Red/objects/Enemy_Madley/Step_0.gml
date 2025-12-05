@@ -24,5 +24,11 @@ else{
     speed = 0;
 }
 
+if(place_meeting(x, y, Wall_Parent)){
+     speed = speed/5;
+}
+
+
+
 //Gets the player's position and moves towards it according to the speed
 move_towards_point(Player.x, Player.y, speed);

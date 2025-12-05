@@ -1,18 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"Enemy_Parent",
+  "%Name":"Enemy_Sprinter",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Enemy_Parent",
+  "name":"Enemy_Sprinter",
   "overriddenProperties":[],
   "parent":{
     "name":"Enemies",
     "path":"folders/Objects/Enemies.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Enemy_Parent",
+    "path":"objects/Enemy_Parent/Enemy_Parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,7 +33,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Sprite34",
+    "path":"sprites/Sprite34/Sprite34.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
