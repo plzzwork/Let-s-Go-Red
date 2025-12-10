@@ -89,6 +89,7 @@
     {"id":{"name":"Legacy_Dialogue","path":"scripts/Legacy_Dialogue/Legacy_Dialogue.yy",},},
     {"id":{"name":"PauseMenuDarkenWorld","path":"shaders/PauseMenuDarkenWorld/PauseMenuDarkenWorld.yy",},},
     {"id":{"name":"Indoors1","path":"sounds/Indoors1/Indoors1.yy",},},
+    {"id":{"name":"Inside_Building_V2","path":"sounds/Inside_Building_V2/Inside_Building_V2.yy",},},
     {"id":{"name":"Overworld1","path":"sounds/Overworld1/Overworld1.yy",},},
     {"id":{"name":"card","path":"sprites/card/card.yy",},},
     {"id":{"name":"DCCTiles","path":"sprites/DCCTiles/DCCTiles.yy",},},
