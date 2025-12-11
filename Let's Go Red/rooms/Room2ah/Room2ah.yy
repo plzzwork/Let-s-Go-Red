@@ -12,6 +12,7 @@
     {"name":"inst_1C4509D3","path":"rooms/Room2ah/Room2ah.yy",},
     {"name":"inst_33ACCD6E","path":"rooms/Room2ah/Room2ah.yy",},
     {"name":"inst_719A5E0A","path":"rooms/Room2ah/Room2ah.yy",},
+    {"name":"inst_529A01EF","path":"rooms/Room2ah/Room2ah.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -27,6 +28,7 @@
         {"$GMRInstance":"v4","%Name":"inst_1C4509D3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1C4509D3","objectId":{"name":"Davison","path":"objects/Davison/Davison.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":960.0,"y":800.0,},
         {"$GMRInstance":"v4","%Name":"inst_33ACCD6E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_33ACCD6E","objectId":{"name":"Nugent","path":"objects/Nugent/Nugent.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1696.0,"y":800.0,},
         {"$GMRInstance":"v4","%Name":"inst_719A5E0A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_719A5E0A","objectId":{"name":"Enemy_Sprinter","path":"objects/Enemy_Sprinter/Enemy_Sprinter.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1152.0,"y":928.0,},
+        {"$GMRInstance":"v4","%Name":"inst_529A01EF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_529A01EF","objectId":{"name":"Enemy_Slower","path":"objects/Enemy_Slower/Enemy_Slower.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1376.0,"y":832.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_1","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":125,"SerialiseWidth":172,"TileCompressedData":[-14401,18,1,1,-175,18,1,1,-6922,18,],"TileDataFormat":1,},"tilesetId":{"name":"ts_GroundTiles1","path":"tilesets/ts_GroundTiles1/ts_GroundTiles1.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
   ],

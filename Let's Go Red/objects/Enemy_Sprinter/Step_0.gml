@@ -32,7 +32,7 @@ if(distToPlayer <= 200 && sprint_wait_time > 0){
     speed = 0;
 }
 else{
-    speed = 10;
+    speed = 8;
 }
 
 
@@ -56,4 +56,15 @@ if(place_meeting(x, y, Wall_Parent)){
      x -= 10;
 }
 
-move_towards_point(sprint_x, sprint_y, speed);
+if(eye_wait > 0){
+    eye_wait -= delta_time/1000000;
+}
+else{
+    eye_spy = false
+    eye_wait = 1.5;
+}
+
+if(eye_spy == false){
+    move_towards_point(sprint_x, sprint_y, speed);
+}
+

@@ -34,5 +34,15 @@ if(place_meeting(x, y, Wall_Parent)){
      speed = speed/5;
 }
 
+if(eye_wait > 0){
+    eye_wait -= delta_time/1000000;
+}
+else{
+    eye_spye = false
+    eye_wait = 1.5;
+}
+
 //Gets the player's position and moves towards it according to the speed
-move_towards_point(Player.x, Player.y, speed);
+if(eye_spy == false){
+    move_towards_point(Player.x, Player.y, speed);
+}

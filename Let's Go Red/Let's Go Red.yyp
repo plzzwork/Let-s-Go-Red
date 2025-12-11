@@ -42,7 +42,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.1.210",
+    "IDEVersion":"2024.14.2.212",
   },
   "name":"Let's Go Red",
   "resources":[
@@ -54,6 +54,7 @@
     {"id":{"name":"Door_Test","path":"objects/Door_Test/Door_Test.yy",},},
     {"id":{"name":"Enemy_Madley","path":"objects/Enemy_Madley/Enemy_Madley.yy",},},
     {"id":{"name":"Enemy_Parent","path":"objects/Enemy_Parent/Enemy_Parent.yy",},},
+    {"id":{"name":"Enemy_Slower","path":"objects/Enemy_Slower/Enemy_Slower.yy",},},
     {"id":{"name":"Enemy_Sprinter","path":"objects/Enemy_Sprinter/Enemy_Sprinter.yy",},},
     {"id":{"name":"inventoryOpener","path":"objects/inventoryOpener/inventoryOpener.yy",},},
     {"id":{"name":"Item_Card","path":"objects/Item_Card/Item_Card.yy",},},
@@ -110,6 +111,9 @@
     {"id":{"name":"spr_ui_DialogueSpeaker","path":"sprites/spr_ui_DialogueSpeaker/spr_ui_DialogueSpeaker.yy",},},
     {"id":{"name":"spr_ui_PauseMenuBar","path":"sprites/spr_ui_PauseMenuBar/spr_ui_PauseMenuBar.yy",},},
     {"id":{"name":"Sprite34","path":"sprites/Sprite34/Sprite34.yy",},},
+    {"id":{"name":"Sprite35","path":"sprites/Sprite35/Sprite35.yy",},},
+    {"id":{"name":"Sprite36","path":"sprites/Sprite36/Sprite36.yy",},},
+    {"id":{"name":"Sprite37","path":"sprites/Sprite37/Sprite37.yy",},},
     {"id":{"name":"Step1","path":"sprites/Step1/Step1.yy",},},
     {"id":{"name":"Step10","path":"sprites/Step10/Step10.yy",},},
     {"id":{"name":"Step2","path":"sprites/Step2/Step2.yy",},},

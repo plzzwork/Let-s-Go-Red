@@ -11,3 +11,7 @@ sprint_x = 0;
 sprint_y = 0;
 
 detect_time = 0;
+
+eye_spy = false;
+
+eye_wait = 1.5;
