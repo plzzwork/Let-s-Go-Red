@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Inside_Building_V2",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":120.73796,
+  "exportDir":"",
+  "name":"Inside_Building_V2",
+  "parent":{
+    "name":"Audio",
+    "path":"folders/Audio.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Inside_Building_V2.mp3",
+  "volume":1.0,
+}
