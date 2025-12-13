@@ -8,6 +8,7 @@ if(Player.hit1 == id || Player.hit2 == id || Player.hit3 == id || Player.hit4 ==
     spot_time = 5;
     collision_circle_list(x, y, 500,Enemy_Parent, false, false, instances, false);
     for(var i = 0; i < ds_list_size(instances); i++){
+        //show_debug_message("FOUND");
         ds_list_find_value(instances, i).eye_spy = true;
     }
 }

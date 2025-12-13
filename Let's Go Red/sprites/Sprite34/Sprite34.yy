@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Enemy_Sprites",
-    "path":"folders/Sprites/TestingSprites/Enemy_Sprites.yy",
+    "path":"folders/Sprites/Enemy_Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

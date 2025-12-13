@@ -64,7 +64,9 @@ else{
     eye_wait = 1.5;
 }
 
-if(eye_spy == false){
-    move_towards_point(sprint_x, sprint_y, speed);
+if(eye_spy == true){
+    sprint_x = x;
+    sprint_y = y;
 }
 
+move_towards_point(sprint_x, sprint_y, speed);

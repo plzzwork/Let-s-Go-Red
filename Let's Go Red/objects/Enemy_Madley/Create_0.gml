@@ -12,3 +12,5 @@ spot_time = 0.75;
 eye_spy = false;
 
 eye_wait = 1.5;
+
+randomize();

@@ -46,3 +46,7 @@ else{
 if(eye_spy == false){
     move_towards_point(Player.x, Player.y, speed);
 }
+else{
+    ifSpotted = true;
+    move_towards_point(x, y, speed);
+}

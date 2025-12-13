@@ -6,3 +6,4 @@ ifSpotted = false;
 spot_time = 5;
 
 instances = ds_list_create();
+
