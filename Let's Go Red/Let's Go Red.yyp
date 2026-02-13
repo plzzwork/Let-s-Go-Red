@@ -42,7 +42,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.2.212",
+    "IDEVersion":"2024.14.3.217",
   },
   "name":"Let's Go Red",
   "resources":[
@@ -115,6 +115,7 @@
     {"id":{"name":"Sprite35","path":"sprites/Sprite35/Sprite35.yy",},},
     {"id":{"name":"Sprite36","path":"sprites/Sprite36/Sprite36.yy",},},
     {"id":{"name":"Sprite37","path":"sprites/Sprite37/Sprite37.yy",},},
+    {"id":{"name":"Sprite38","path":"sprites/Sprite38/Sprite38.yy",},},
     {"id":{"name":"Step1","path":"sprites/Step1/Step1.yy",},},
     {"id":{"name":"Step10","path":"sprites/Step10/Step10.yy",},},
     {"id":{"name":"Step2","path":"sprites/Step2/Step2.yy",},},
