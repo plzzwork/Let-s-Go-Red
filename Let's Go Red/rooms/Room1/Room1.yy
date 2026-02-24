@@ -13,10 +13,8 @@
     {"name":"inst_6DF85980","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_A3DFD1A","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_3763DD08","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_48FED273","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_249A9CF2","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_1FCD5C5E","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_5AD40A98","path":"roomui/RoomUI/RoomUI.yy",},
   ],
   "isDnd":false,
   "layers":[
