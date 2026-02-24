@@ -1,18 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"UnionTable",
+  "%Name":"Recycling",
   "eventList":[],
   "managed":true,
-  "name":"UnionTable",
+  "name":"Recycling",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"Wall_Parent",
-    "path":"objects/Wall_Parent/Wall_Parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite41",
-    "path":"sprites/Sprite41/Sprite41.yy",
+    "name":"Sprite38",
+    "path":"sprites/Sprite38/Sprite38.yy",
   },
   "spriteMaskId":null,
   "visible":true,

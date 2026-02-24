@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"UnionTable",
+  "%Name":"LongUnionTable",
   "eventList":[],
   "managed":true,
-  "name":"UnionTable",
+  "name":"LongUnionTable",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite41",
-    "path":"sprites/Sprite41/Sprite41.yy",
+    "name":"Sprite42",
+    "path":"sprites/Sprite42/Sprite42.yy",
   },
   "spriteMaskId":null,
   "visible":true,
