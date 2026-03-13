@@ -34,10 +34,11 @@
     {"name":"inst_8B2908","path":"rooms/InsideUnion/InsideUnion.yy",},
     {"name":"inst_2861A1A6","path":"rooms/InsideUnion/InsideUnion.yy",},
     {"name":"inst_2D60A1C7","path":"rooms/InsideUnion/InsideUnion.yy",},
-    {"name":"inst_48FED273","path":"roomui/RoomUI/RoomUI.yy",},
-    {"name":"inst_5AD40A98","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_48BA252C","path":"rooms/InsideUnion/InsideUnion.yy",},
     {"name":"inst_5ED4B144","path":"rooms/InsideUnion/InsideUnion.yy",},
+    {"name":"inst_6CADFAF","path":"rooms/InsideUnion/InsideUnion.yy",},
+    {"name":"inst_48FED273","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"inst_5AD40A98","path":"roomui/RoomUI/RoomUI.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -76,6 +77,11 @@
         {"$GMRInstance":"v4","%Name":"inst_2D60A1C7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2D60A1C7","objectId":{"name":"Recycling","path":"objects/Recycling/Recycling.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1100.0,"y":572.0,},
         {"$GMRInstance":"v4","%Name":"inst_48BA252C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_48BA252C","objectId":{"name":"NPC_ColonV","path":"objects/NPC_ColonV/NPC_ColonV.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1276.0,"y":616.0,},
         {"$GMRInstance":"v4","%Name":"inst_5ED4B144","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5ED4B144","objectId":{"name":"NPC_APO","path":"objects/NPC_APO/NPC_APO.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1320.0,"y":440.0,},
+        {"$GMRInstance":"v4","%Name":"inst_6CADFAF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6CADFAF","objectId":{"name":"RoomTransition","path":"objects/RoomTransition/RoomTransition.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"RoomTransition","path":"objects/RoomTransition/RoomTransition.yy",},"propertyId":{"name":"TargetRoom","path":"objects/RoomTransition/RoomTransition.yy",},"resource":{"name":"OutsideUnion","path":"rooms/OutsideUnion/OutsideUnion.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"OutsideUnion",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"RoomTransition","path":"objects/RoomTransition/RoomTransition.yy",},"propertyId":{"name":"x_SpawnPos","path":"objects/RoomTransition/RoomTransition.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1050",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"RoomTransition","path":"objects/RoomTransition/RoomTransition.yy",},"propertyId":{"name":"y_SpawnPos","path":"objects/RoomTransition/RoomTransition.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1290",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1144.0,"y":792.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_1","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":125,"SerialiseWidth":125,"TileCompressedData":[
           -420,-2147483648,-41,0,-84,-2147483648,-41,0,-84,-2147483648,-41,0,-84,-2147483648,-41,0,-84,-2147483648,
