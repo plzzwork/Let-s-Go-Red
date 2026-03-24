@@ -37,6 +37,9 @@
     {"name":"inst_48BA252C","path":"rooms/InsideUnion/InsideUnion.yy",},
     {"name":"inst_5ED4B144","path":"rooms/InsideUnion/InsideUnion.yy",},
     {"name":"inst_6CADFAF","path":"rooms/InsideUnion/InsideUnion.yy",},
+    {"name":"inst_48FED273","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"inst_5AD40A98","path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"inst_3E3D8DDE","path":"rooms/InsideUnion/InsideUnion.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -80,6 +83,11 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"RoomTransition","path":"objects/RoomTransition/RoomTransition.yy",},"propertyId":{"name":"x_SpawnPos","path":"objects/RoomTransition/RoomTransition.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1050",},
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"RoomTransition","path":"objects/RoomTransition/RoomTransition.yy",},"propertyId":{"name":"y_SpawnPos","path":"objects/RoomTransition/RoomTransition.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1290",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1144.0,"y":792.0,},
+        {"$GMRInstance":"v4","%Name":"inst_3E3D8DDE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3E3D8DDE","objectId":{"name":"RoomTransition","path":"objects/RoomTransition/RoomTransition.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"RoomTransition","path":"objects/RoomTransition/RoomTransition.yy",},"propertyId":{"name":"TargetRoom","path":"objects/RoomTransition/RoomTransition.yy",},"resource":{"name":"StugovLounge","path":"rooms/StugovLounge/StugovLounge.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"StugovLounge",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"RoomTransition","path":"objects/RoomTransition/RoomTransition.yy",},"propertyId":{"name":"x_SpawnPos","path":"objects/RoomTransition/RoomTransition.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"257",},
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"RoomTransition","path":"objects/RoomTransition/RoomTransition.yy",},"propertyId":{"name":"y_SpawnPos","path":"objects/RoomTransition/RoomTransition.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"423",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1276.0,"y":132.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles_1","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles_1","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":125,"SerialiseWidth":125,"TileCompressedData":[
           -420,-2147483648,-41,0,-84,-2147483648,-41,0,-84,-2147483648,-41,0,-84,-2147483648,-41,0,-84,-2147483648,
