@@ -14,9 +14,7 @@ conversation = [
     name: "APO Guy",
     text: "You? Fighting Puckman? It's dangerous to go alone! Take this!",
      endFunc: function(){
-        if(NPC_APO.alreadySpawnedObject){return;} 
-            NPC_APO.alreadySpawnedObject = true;
-        instance_activate_object(Item);
+        
 
         NPC_APO.conversation = NPC_APO.conversation2;
     }
