@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"UnionTableComputer",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"placeholder_car_3",
+  "eventList":[],
   "managed":true,
-  "name":"UnionTableComputer",
+  "name":"placeholder_car_3",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Cars",
+    "path":"folders/Objects/Cars.yy",
   },
   "parentObjectId":{
     "name":"Wall_Parent",
@@ -33,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite43",
-    "path":"sprites/Sprite43/Sprite43.yy",
+    "name":"Sprite77",
+    "path":"sprites/Sprite77/Sprite77.yy",
   },
   "spriteMaskId":null,
   "visible":true,
