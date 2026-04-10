@@ -120,5 +120,7 @@ if(place_meeting(x, y, Wall_Parent)){
 }
 
 if (hp <= 0){
+	walk_speed = 4
+	sprint_speed = 8
     game_restart();
 }

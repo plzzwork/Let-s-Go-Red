@@ -1,5 +1,4 @@
 // create runs once upon starting
-
 walk_speed = 4; // seems type does not need to be declared
 sprint_speed = 8;
 
@@ -56,3 +55,10 @@ cardLevel = 1;
 //angle that the player is moving in
 movementAngle = 0.0;
 layer_set_visible("GameUI", true)
+
+killanim = function(){
+	Player.x = 1631
+	walk_speed = 0
+	sprint_speed = 0
+	camera_set_view_pos(view_camera[0],Player.x-100,Player.y-100)
+}
