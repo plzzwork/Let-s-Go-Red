@@ -37,9 +37,9 @@
     {"name":"inst_48BA252C","path":"rooms/InsideUnion/InsideUnion.yy",},
     {"name":"inst_5ED4B144","path":"rooms/InsideUnion/InsideUnion.yy",},
     {"name":"inst_6CADFAF","path":"rooms/InsideUnion/InsideUnion.yy",},
+    {"name":"inst_3E3D8DDE","path":"rooms/InsideUnion/InsideUnion.yy",},
     {"name":"inst_48FED273","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_5AD40A98","path":"roomui/RoomUI/RoomUI.yy",},
-    {"name":"inst_3E3D8DDE","path":"rooms/InsideUnion/InsideUnion.yy",},
   ],
   "isDnd":false,
   "layers":[
