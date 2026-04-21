@@ -10,7 +10,7 @@ function ToggleInventory(){
         instance_destroy(obj_Inventory);
         return;
     }
-    instance_create_depth(0, 0, 200, obj_Inventory);
+    instance_create_depth(0, 0, -200, obj_Inventory);
 }
 
 function addItem(sprite, name, max_stack, desc, consumable, func){

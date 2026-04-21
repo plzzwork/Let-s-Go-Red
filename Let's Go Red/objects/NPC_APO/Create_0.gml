@@ -15,7 +15,8 @@ conversation = [
     text: "You? Fighting Puckman? It's dangerous to go alone! Take this!",
      endFunc: function(){
         
-
+		spawnedItem = true;
+		alreadySpawnedObject = true;
         NPC_APO.conversation = NPC_APO.conversation2;
     }
 },
