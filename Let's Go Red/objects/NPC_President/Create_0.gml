@@ -31,3 +31,28 @@ conversation2 = [
     text: "I'm good. Also, have you picked up the school map yet?",
 },
 ]
+
+conversation3 = [
+{
+    name: "You",
+    text: "Hi Bro.",
+},
+{
+    name: "President of the Union",
+    text: "Wait, you already have the map? Please say you didn't skip my earlier conversation.",
+},
+]
+
+has_map = function(_arr){
+	for(var i = 0; i<array_length(_arr);i++){
+		show_debug_message(_arr[i].name);
+		if(_arr[i].name == "APO Map"){
+			return true;
+		}
+	}
+	return false
+}
+
+if(has_map(global.inv)){
+	conversation = conversation3;
+}
