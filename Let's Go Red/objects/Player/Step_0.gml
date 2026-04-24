@@ -124,3 +124,10 @@ if (hp <= 0){
 	sprint_speed = 8
     game_restart();
 }
+
+if(room == MuellerCardSwipe){
+	visible = false
+}
+else{
+	visible = true
+}
